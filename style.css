@@ -179,7 +179,9 @@ p{
 .product-img{
     position:relative;
     padding: 0;  
+    z-index: 3;
 }
+
 .product2{
     display: flex;
     justify-content: center;
@@ -191,4 +193,52 @@ p{
     height: 188px;
     margin-top: 66px;
 }
+
+.feature1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature1-top{
+    width: 1440px;
+    padding-top: 142px;
+    padding-bottom: 141px;
+
+
+}
+
+.feature1-text1{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #BDBDBD;
+
+}
+.feature1-text2{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FF7235;
+
+}
+.feature1-img{
+    padding-top: 51px;
+}
+
+.feature2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature2-img{
+    padding-top: 36px;
+}
+.feature3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
