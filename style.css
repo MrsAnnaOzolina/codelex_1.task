@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+h1,h2{
+    margin:0;
+}
+.header{
+    width: 1109px;
+    height: 48px;
+    margin-top:57px ;
+    margin-left: 165px;
+}
+.container{
+    margin:0;
+}
+
+.hedaer-logo{
+   background: #FF7235;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.header-x{
+    position:absolute;
+    left:179px;
+    
+    font-family: 'Hind Siliguri';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 23px;
+    color:#FFFFFF;
+   
+    
+}
+.header-pense{
+    position: relative;
+    left:55px;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    color: #292830;
+}
+.header-nav{
+
+}
+.header-nav-item{
+
+}
