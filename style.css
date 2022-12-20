@@ -1,52 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;700&display=swap');
 *{
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
 
 body{
     margin:0;
 }
+.container{
+   width: 1109px;
+ 
+}
 h1,h2{
     margin:0;
+    
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    color: #292830;
+}
+p{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #BDBDBD;
 }
 .header{
-    width: 1109px;
-    height: 48px;
-    margin-top:57px ;
-    margin-left: 165px;
-}
-.container{
-    margin:0;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.header-top{
+    margin-top: 57px;
+    width: 1408px ;
+
+}
 .hedaer-logo{
    background: #FF7235;
     border-radius: 20px;
     width: 40px;
     height: 40px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-
-    display: flex;
-
+   /* display: flex;*/
     margin-top: 3px;
-   
 }
 .header-x{
     position:absolute;
-    left:179px;
+    margin-left: 14px;
+
     width: 13px;
     height: 23px;
     font-family: 'Hind Siliguri';
     font-style: bold;
     font-weight: 700;
     font-size: 23px;
-    color:#FFFFFF;
-   
-    
+    color:#FFFFFF; 
 }
 .header-pense{
     position: relative;
-    left:52px;
+    margin-left: 52px;
     width: 60px;
     height: 22px;
 
@@ -57,8 +72,8 @@ h1,h2{
     color: #292830;
 }
 .header-nav{
-    display: flex;
-    justify-content: center;
+   display: flex;
+    justify-content:right;
     
     margin-top:8px;
 }
@@ -71,9 +86,12 @@ h1,h2{
 
     margin-right: 40px;
 }
+.header-nav-item:last-child{
+    margin-right: 0px;
+}
 .header-cta{
-
-
+    display: flex;
+    justify-content:right;
 }
 .header-button{
     width: 160px;
@@ -89,5 +107,55 @@ h1,h2{
     background: #FFFFFF;
     border: 1px solid #FF7235;
     border-radius: 8px;
+
+   
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-top{
+    margin-top:106px;
+    margin-bottom: 211px;
+    width: 1440px ;
+
+}
+.hero-cta{
+  
+}
+.hero-button{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    border:0;
+
+    width: 225px;
+    height: 75px;
+    background: #FF7235;
+    border-radius: 8px;
+}
+.hero-button-vector{
+    
+}
+.hero-button-text{
+    display: inline-block;
+    position: relative;
+    margin-left: 24px;
+}
+.hero-img{
+    align-items: flex-end;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-top{
+    background: #FF7235;
+    width: 1440px ;
+    height: 712px;
 }
 
