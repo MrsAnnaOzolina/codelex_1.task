@@ -26,14 +26,16 @@ h1,h2{
     height: 40px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
 
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+
+    margin-top: 3px;
+   
 }
 .header-x{
     position:absolute;
     left:179px;
-    
+    width: 13px;
+    height: 23px;
     font-family: 'Hind Siliguri';
     font-style: bold;
     font-weight: 700;
@@ -44,7 +46,9 @@ h1,h2{
 }
 .header-pense{
     position: relative;
-    left:55px;
+    left:52px;
+    width: 60px;
+    height: 22px;
 
     font-family: 'Hind Siliguri';
     font-style: normal;
@@ -53,8 +57,37 @@ h1,h2{
     color: #292830;
 }
 .header-nav{
-
+    display: flex;
+    justify-content: center;
+    
+    margin-top:8px;
 }
 .header-nav-item{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #292830;
+
+    margin-right: 40px;
+}
+.header-cta{
+
 
 }
+.header-button{
+    width: 160px;
+    height: 48px;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #FF7235;
+
+    background: #FFFFFF;
+    border: 1px solid #FF7235;
+    border-radius: 8px;
+}
+
