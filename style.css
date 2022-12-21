@@ -151,9 +151,7 @@ p{
     position: relative;
     margin-left: 24px;
 }
-.hero-img{
-    
-}
+
 
 .product{
     display: flex;
@@ -416,7 +414,7 @@ p{
 .banner-top{
     width: 1440px;
     padding-top: 120px;
-    padding-bottom:;
+   
     background: #FF7235;
 
 }
